@@ -29,7 +29,7 @@ export const OUTPUT_LENGTH_OPTIONS: { value: OutputLength; labelToken: keyof Tra
   { value: 'long', labelToken: 'long' },
 ];
 
-export const GEMINI_MODEL_NAME = 'gemini-2.5-pro-preview-05-06';
+export const GEMINI_MODEL_NAME = 'gemini-1.5-pro';
 export const GEMINI_API_BASE_URL = 'https://generativelanguage.googleapis.com';
 
 export const translations: Translations = {
