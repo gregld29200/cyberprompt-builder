@@ -1,0 +1,76 @@
+{
+  "name": "cyber-prompt-builder",
+  "version": "2.0.0",
+  "description": "A cyberpunk-themed prompt engineering application for Gemini AI with BYOK (Bring Your Own Key) functionality. Features request analysis, approach selection, variable refinement, and prompt generation with MVP and Agentic modes in a neon-lit tech interface.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "check-types": "tsc --noEmit",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "gemini-api",
+    "prompt-engineering",
+    "cyberpunk",
+    "byok",
+    "ai",
+    "client-side"
+  ],
+  "author": "CyberPrompt Systems",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/cyber-prompt-builder"
+  },
+  "homepage": "https://cyberprompt.ai",
+  "bugs": {
+    "url": "https://github.com/yourusername/cyber-prompt-builder/issues"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.1.3",
+    "lucide-react": "^0.294.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react": "^4.0.3",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "info": {
+    "byok": "This application uses a Bring Your Own Key (BYOK) system for the Gemini API. Your API key is processed entirely client-side and can be stored in sessionStorage, localStorage, or not stored at all based on your preference.",
+    "security": "No API keys are ever transmitted to any server. All API calls are made directly from your browser to Google's Generative AI API.",
+    "dependencies_note": "Dependencies can be loaded via ESM imports or through the importmap in index.html for direct browser usage without build steps."
+  }
+}
