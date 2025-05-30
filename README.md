@@ -1,7 +1,7 @@
-# ⚡️ CYBERPROMPT BUILDER
+# ⚡️ BRAINSPIRE
 
 _“Hack the prompt—own the output.”_  
-CyberPrompt Builder is a slick, neon-lit web application that helps you craft **high-performance prompts** for Google Gemini while letting you **Bring Your Own API Key (BYOK)**.  
+Brainspire is a slick, neon-lit web application that helps you craft **high-performance prompts** for Google Gemini while letting you **Bring Your Own API Key (BYOK)**.  
 Think of it as a **cyber-deck for prompt engineering**: analyse your request, choose a protocol (MVP or AGENTIC), tune variables, and spawn a production-ready prompt in seconds.
 
 ---
@@ -33,8 +33,8 @@ All of this happens in a futuristic UI powered by React + Tailwind with glowing 
 
 ### Clone & Serve
 ```bash
-git clone <your-fork> cyber-prompt-builder
-cd cyber-prompt-builder
+git clone <your-fork> brainspire
+cd brainspire
 # any static server works – vite, http-server, serve, etc.
 npx serve .
 ```
@@ -44,7 +44,7 @@ npx serve .
 
 ### First Launch
 1. Browser opens on **API Key Console**.  
-2. Paste your **Gemini API key** ‑> choose storage ‑> “Initialize System”.  
+2. Paste your **Gemini API key** → choose storage → “Initialize System”.  
 3. If the key is valid you’re warped to the request screen – start hacking prompts.
 
 ---
@@ -53,7 +53,7 @@ npx serve .
 1. Sign in to Google Cloud & enable **Generative Language API**.  
 2. Create an API key in **APIs & Services → Credentials**.  
 3. Copy the key (looks like `AI...`).  
-4. Paste it into CyberPrompt Builder.
+4. Paste it into Brainspire.
 
 Helpful link: <https://ai.google.dev>
 
@@ -72,8 +72,8 @@ _Still paranoid?_ Keep storage **None** and refresh when finished.
 ---
 
 ## 🧬  6. Differences vs Original Prompt-Builder
-| Original (TeachInspire) | CyberPrompt Builder |
-|-------------------------|---------------------|
+| Original (TeachInspire) | **Brainspire** |
+|-------------------------|----------------|
 | Cloudflare Worker backend holds API key | 100 % client-side, BYOK |
 | Academic pastel palette | Neon cyber-deck palette |
 | Education-centric naming | Tech/cyber neutral naming |

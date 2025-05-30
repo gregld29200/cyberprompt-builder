@@ -35,8 +35,8 @@ export const GEMINI_API_BASE_URL = 'https://generativelanguage.googleapis.com';
 export const translations: Translations = {
   fr: {
     app: {
-      title: "CyberPrompt Builder",
-      subtitle: "Exploitez la puissance de l'IA avec des prompts optimisés"
+      title: "Brainspire",
+      subtitle: "Prompt Builder"
     },
     apiKey: {
       title: "Configuration de l'API",
@@ -148,8 +148,8 @@ export const translations: Translations = {
   },
   en: {
     app: {
-      title: "CyberPrompt Builder",
-      subtitle: "Harness AI power with optimized prompts"
+      title: "Brainspire",
+      subtitle: "Prompt Builder"
     },
     apiKey: {
       title: "API Configuration",

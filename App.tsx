@@ -116,7 +116,7 @@ const App: React.FC = () => {
     
     // Terminal typing effect
     if (terminalRef.current && effectsEnabled) {
-      const terminalText = "CyberPrompt v2.0 initialized. Ready for input.";
+      const terminalText = "Brainspire v2.0 initialized. Ready for input.";
       let i = 0;
       const typeInterval = setInterval(() => {
         if (i < terminalText.length) {
@@ -378,7 +378,7 @@ const App: React.FC = () => {
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `cyberprompt-${Date.now()}.txt`;
+    a.download = `brainspire-prompt-${Date.now()}.txt`;
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
@@ -447,8 +447,8 @@ const App: React.FC = () => {
             <Cpu className="text-cyber-accent-primary mr-2 h-8 w-8" />
             <div>
               <h1 className="font-rajdhani font-bold text-2xl tracking-wider">
-                <span className="neon-text">CYBER</span>
-                <span className="neon-text-magenta">PROMPT</span>
+                <span className="neon-text">BRAIN</span>
+                <span className="neon-text-magenta">SPIRE</span>
               </h1>
               <p className="text-xs text-cyber-muted-text">v2.0 // BYOK EDITION</p>
             </div>
@@ -880,7 +880,7 @@ const App: React.FC = () => {
       <footer className="bg-cyber-card-bg border-t border-cyber-border mt-8 py-4">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center">
           <div className="text-cyber-muted-text text-sm mb-4 sm:mb-0">
-            <span className="font-mono">CyberPrompt v2.0</span> | <span>BYOK Edition</span>
+            <span className="font-mono">Brainspire v2.0</span> | <span>BYOK Edition</span>
           </div>
           
           {apiKeyState.status === 'valid' && (
